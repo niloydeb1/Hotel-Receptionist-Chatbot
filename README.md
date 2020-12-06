@@ -19,3 +19,6 @@ References:
 1. https://www.nltk.org 
 2. https://pytorch.org
 3. https://www.python-engineer.com
+
+Youtube unlisted video link:
+https://www.youtube.com/watch?v=j_hWKBWLufc
