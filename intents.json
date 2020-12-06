@@ -1,0 +1,153 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day. Hope to see you in our hotel.",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Mobile banking payment system available?",
+        "Do you accept bkash?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept cash, VISA, Mastercard and bkash",
+        "We accept cash, most major credit/debit cards and bkash"
+      ]
+    },
+    {
+      "tag": "availability",
+      "patterns": [
+        "Is there any room available?",
+        "Can I get a room?",
+        "I want to book a room?",
+        "How many room available?",
+        "How to book rooms?"
+      ],
+      "responses": [
+        "Rooms are available throughout the month. You can book rooms by either calling or directly coming to our reception.",
+        "Sure, come to our reception or call to book rooms."
+      ]
+    },
+    {
+      "tag": "rooms",
+      "patterns": [
+        "What kinds of room do you have?",
+        "I want to know about room details and price?",
+        "Can you please tell me types of rooms and price?",
+        "types of rooms?",
+        "room price?",
+        "room details?",
+        "kinds of rooms?"
+      ],
+      "responses": [
+        "We provide 3 types of rooms.\n\n Superior Rooms -\n Room for 2 persons.\n Room Size: 280 sqft\n 1 Regular sized bed\n Fully air conditioned\n 32\" LED SMART TV\n High speed internet connection\n Includes tea table and sofa\n 24/7 room service and other amenities\n\n Price: 10,000/= (BDT) (Per night)\n\n Deluxe Rooms -\n Room for 2 persons.\n Room Size: 350 sqft\n 1 king sized bed\n Fully air conditioned\n 32\" LED SMART TV\n High speed internet connection\n Full marble Suite bathrooms with Jacuzzi\n Includes working desk and chair\n 24/7 room service and other amenities\n\n Price: 16,000/= (BDT) (Per night)\n\n Executive Rooms -\n Room for 2 persons.\n Room Size: 450 sqft\n 1 king sized bed\n Fully air conditioned\n 64\" LED SMART TV\n High speed internet connection\n Dinning room with dinning table and refrigerator\n Fully-equipped modern kitchen \n Includes working desk and chair\n Full marble Suite bathrooms with Jacuzzi\n 24/7 room service and other amenities\n\n Price: 25,000/= (BDT) (Per night)\n All prices are including VAT and TAX."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What other services you provide with room?",
+        "Services with room?",
+        "Other services?",
+        "What are the room amenities?",
+        "What are the other services and amenities?",
+        "Amenities with room?",
+        "Services and amenities?",
+        "What are room facilities?",
+        "What are hotel facilities?"
+      ],
+      "responses": [
+        "Each room comes with a lot of facilities, services and amenities-\n Tea/Coffee maker\n Minibar\n Shower\n Safe\n Telephone\n Air conditioning\n Hairdryer\n Bathrobe\n Desk\n Ironing facilities\n Sitting area\n Free toiletries\n Toilet\n Private Bathroom\n Slippers\n Satellite channels\n Flat-screen TV\n Sofa\n View\n Hardwood or parquet floors\n Wake-up service\n Electric kettle\n Wardrobe or closet\n City view\n Towels\n Linens\n High chair\n Upper floors accessible by elevator\n Entire unit wheelchair accessible\n Toilet paper"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is this hotel?",
+        "What is the hotel location?",
+        "Where this hotel is located?",
+        "Location please?"
+      ],
+      "responses": [
+        "Location of our hotel is: 66, Banani, Dhaka",
+        "Find us at 66, Banani, Dhaka"
+      ]
+    },
+    {
+      "tag": "rating",
+      "patterns": [
+        "Hotel's rating?",
+        "What is this hotel's rating?",
+        "How much this hotel is rated?"
+      ],
+      "responses": [
+        "We have a 5-Start rating",
+        "Our hotel is rated 5-Star",
+        "Grand Bangladesh Hotel is rated 5-Star"
+      ]
+    },
+    {
+      "tag": "discount",
+      "patterns": [
+        "Is there any offer?",
+        "Can I get any discount?",
+        "What are the offers?",
+        "What is the discount?",
+        "Any offer or discount available?"
+      ],
+      "responses": [
+        "Currently we are providing 20% discount on every rooms",
+        "You will get 20% discount on every rooms"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How to contact the hotel?",
+        "Contact number and email?",
+        "Can you give me phone number of the hotel?",
+        "Phone number of the hotel please?",
+        "Give me contact number of the hotel",
+        "Give me phone number of the hotel",
+        "Give me email of the hotel",
+        "What is the contact no of the hotel?",
+        "What is the phone no of the hotel?",
+        "What is the email of the hotel?"
+      ],
+      "responses": [
+        "Contact us:\n Tel: +8802985910454\n Email: info@grandbangladeshhotel.com"
+      ]
+    }
+  ]
+}
