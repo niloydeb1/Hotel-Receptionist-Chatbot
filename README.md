@@ -3,11 +3,11 @@ CSE431 - Natural Language Processing
 Assignment - 3  
 
 Submitted By: 
-Niloy Deb Roy Mishu - 17301081 
-Fatema Islam Meem - 17301011 
-Marjahan Akther Dulali - 17301010 
-Prashanta Kumar Saha - 17301103 
-Tasmim Rashid - 17301232  
+1. Niloy Deb Roy Mishu - 17301081 
+2. Fatema Islam Meem - 17301011 
+3. Marjahan Akther Dulali - 17301010 
+4. Prashanta Kumar Saha - 17301103 
+5. Tasmim Rashid - 17301232  
 
 Instructions to run the codes: 
 1. Install python environment (e.g. conda or venv) 
@@ -16,6 +16,6 @@ Instructions to run the codes:
 4. Uncomment "# nltk.download('punkt') " once, for first time running nltk_utils.py.  
 
 References: 
-https://www.nltk.org 
-https://pytorch.org
-https://www.python-engineer.com
+1. https://www.nltk.org 
+2. https://pytorch.org
+3. https://www.python-engineer.com
