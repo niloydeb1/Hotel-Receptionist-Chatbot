@@ -1,6 +1,6 @@
 # Hotel Receptionist Chatbot
 
-Project Details:
+## Project Description:
 
 
 ## Instructions to run the codes: 
