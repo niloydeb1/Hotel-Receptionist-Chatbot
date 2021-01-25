@@ -11,19 +11,19 @@ the chatbot. Natural Language Toolkit (NLTK) is used to tokenize, stemming and b
 4. Natural Language Toolki (NLTK)
 
 ## Project Description:
-* \textbf{Dataset}: "intent.json" file contains the dataset to train the model on. Every intent has a specific tag like 'greetings' or 'goodbye'. Each tag has several patterns which invoke
-that particular intent. Several responses are also associated with each intents. Based on these patterns a random respond will selected by the bot.
-* Data/Text Preprocessing: "nltk_utils.py" file preprocess the dataset using Natural Language Toolkit (NLTK). Tokenize method takes a phrase and return a list of words from the 
-phrase. Stemming method stems each words i.e. "organisation" is stemmed as "organ". Bag of word method returns a boolean list that provides information on whether a given list 
-of tokenized sentence's words are available on a given list of words or not.
-* Model: "model.py" file uses PyTorch library to build a feed-forword neural network model with 1 hiddel layer. ReLU is used as an activation function. Width and depth of the 
-model are also provided.
-* Training: "train.py" file trains the model. First, it preprocess the dataset using "nltk_util.py" methods. Later, hyperparameters like number of epochs, learning rate etc are 
-determined here. Based on the hyperparameters model is trained on CPU or GPU (depending on the availability) using PyTorch. Training progress and results are shown in console. 
-After training state of the model is saved on "data.pth" file. 
-* Chat: "chat.py" is the main class for our chatbot. It loads the current trained state of our chatbot model. It greets the user and chat is begun. Until user type "quit" chat 
-will continue. For any irrelevant queries, bot will respond with "I do not understand message". For 3 consecutive failed attempt of conversation it'll provide user with direct 
-communication information of the organisation.
+* **Dataset**: "intent.json" file contains the dataset to train the model on. Every intent has a specific tag like 'greetings' or 'goodbye'. Each tag has several patterns which 
+invoke that particular intent. Several responses are also associated with each intents. Based on these patterns a random respond will selected by the bot.
+* **Data/Text Preprocessing**: "nltk_utils.py" file preprocess the dataset using Natural Language Toolkit (NLTK). Tokenize method takes a phrase and return a list of words from 
+the phrase. Stemming method stems each words i.e. "organisation" is stemmed as "organ". Bag of word method returns a boolean list that provides information on whether a given 
+list of tokenized sentence's words are available on a given list of words or not.
+* **Model**: "model.py" file uses PyTorch library to build a feed-forword neural network model with 1 hiddel layer. ReLU is used as an activation function. Width and depth of 
+the model are also provided.
+* **Training**: "train.py" file trains the model. First, it preprocess the dataset using "nltk_util.py" methods. Later, hyperparameters like number of epochs, learning rate etc
+are determined here. Based on the hyperparameters model is trained on CPU or GPU (depending on the availability) using PyTorch. Training progress and results are shown in
+console. After training state of the model is saved on "data.pth" file. 
+* **Chat**: "chat.py" is the main class for our chatbot. It loads the current trained state of our chatbot model. It greets the user and chat is begun. Until user type "quit" 
+chat will continue. For any irrelevant queries, bot will respond with "I do not understand message". For 3 consecutive failed attempt of conversation it'll provide user with 
+direct communication information of the organisation.
 
 ## Instructions to run the codes: 
 1. Install python environment (e.g. conda or venv) 
