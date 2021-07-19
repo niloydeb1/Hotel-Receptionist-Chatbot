@@ -2,7 +2,7 @@
 
 ## Project Description:
 An AI based chatbot that provides hotel reception services to the customers. The chatbot is trained using a particular dataset. Feed-forward neural network is used to train
-the chatbot. Natural Language Toolkit (NLTK) is used to tokenize, stemming and bag-of-word creation, which helps as data/text preprocessing. Chatbot provides appropriate information to the customers for relavent queries, after being trained. This chatbot can be transformed for any arbitrary purpose just by altering the dataset.
+the chatbot. Natural Language Toolkit (NLTK) is used to tokenize, stemming and bag-of-word creation, which helps as data/text preprocessing. Chatbot provides appropriate information to the customers for relevent queries, after being trained. This chatbot can be transformed for any arbitrary purpose just by altering the dataset.
 
 ## Tools:
 1. Programming Language: Python
