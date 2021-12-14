@@ -8,7 +8,7 @@ the chatbot. Natural Language Toolkit (NLTK) is used to tokenize, stemming and b
 1. Programming Language: Python
 2. Dataset Format: JSON
 3. Machine Learning Library: PyTorch
-4. Natural Language Toolki (NLTK)
+4. Natural Language Toolkit (NLTK)
 
 ## Project Details:
 * **Dataset**: "intent.json" file contains the dataset to train the model on. Every intent has a specific tag like 'greetings' or 'goodbye'. Each tag has several patterns which 
